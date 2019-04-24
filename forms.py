@@ -1,4 +1,4 @@
-from flask_wtf import FlaskForm
+from flask_wtf import Form
 from wtforms import TextField, PasswordField, SubmitField, BooleanField
 from wtforms.validators import Required, Length, Email, EqualTo
 
